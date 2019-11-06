@@ -1,0 +1,156 @@
+body, html {
+	height: 100%;
+    margin: auto 0;
+    background-color: white;
+    width: 100%;
+    z-index: -1;
+    overflow-x: hidden;
+}
+
+nav {
+    top: 0;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    padding: 10px;
+    background-color: white;
+    text-align: center;
+    z-index: 1000;
+}
+
+div.bg-video {
+    display: block;
+    position: fixed;
+    grid-template-columns: repeat(2, minmax(auto, 1fr));
+    grid-auto-rows: repeat(1, minmax(auto, 1fr));
+    margin-top: 40px;
+    left: 50%;
+    margin-left: -300px;
+    text-align: center;
+    padding-top: 100px;
+    z-index: 0;
+    height: 500px;
+    min-width: 800px;
+}
+
+img.leftImage {
+    margin-bottom: 90px;
+}
+img.resImage{
+    position: relative;
+    left: 50%;
+    margin-left: -150px;
+}
+
+div.appOne {
+      display: grid;
+      grid-template-columns: 50px 200px auto 50px;
+      grid-auto-rows: repeat(1, minmax(auto, 1fr));
+      position: absolute;
+      top: 600px;
+      grid-gap: 40px;
+      height: 550px;
+      z-index: 1;
+      background-color: black;
+      padding: 50px;
+      min-width: 630px;
+      left: 0;
+      right: 0;
+}
+
+div.appOneText {
+      display: grid;
+      position: relative;
+      grid-template-columns: 100%;
+      grid-auto-rows: 20% 80%;
+      color: white;
+      font-size: 1.3em;
+      min-width: 400px;
+      overflow: hidden;
+      text-align: center;
+}
+
+div.appTwo {
+      display: grid;
+      grid-template-columns: 50px auto 50px;
+      grid-auto-rows: repeat(2, minmax(auto, 1fr));
+      position: absolute;
+      grid-gap: 20px;
+      top: 1250px;
+      height: 600px;
+      z-index: 1;
+      background-color: rgba(144, 188, 195);
+      padding: 50px;
+      min-width: 630px;
+      left: 0;
+      right: 0;
+}
+
+div.appTwoText {
+      display: grid;
+      position: relative;
+      grid-template-columns: 100%;
+      grid-auto-rows: 100px auto;
+      text-align: center;
+      color: white;
+      font-size: 1.3em;
+      overflow: hidden;
+      min-width: 630px;
+}
+
+img.concussionImage {
+    position: relative;
+    left: 50%;
+    margin-left: -225px;
+}
+
+div.appThree {
+      display: grid;
+      grid-template-columns: 50px 200px auto 50px;
+      grid-auto-rows: repeat(1, minmax(auto, 1fr));
+      position: absolute;
+      top: 1950px;
+      height: 550px;
+      z-index: 1;
+      background-color: black;
+      padding: 50px;
+      grid-gap: 40px;
+      min-width: 630px;
+      left: 0;
+      right: 0;
+}
+
+div.appThreeText {
+      display: grid;
+      position: relative;
+      grid-template-columns: 100%;
+      grid-auto-rows: 20% 80%;
+      color: white;
+      font-size: 1.3em;
+      text-align: center;
+      
+}
+img.autismImage {
+    position: relative;
+    left: 50%;
+    margin-left: -150px;
+}
+
+div.aboutMe {
+      display: grid;
+      grid-template-columns: 50px auto 50px;
+      grid-auto-rows: 100%;
+      position: absolute;
+      top: 2600px;
+      height: 300px;
+      z-index: 1;
+      padding: 50px;
+      left: 0;
+      right: 0;
+      
+}
+img.contactCard {
+    position: relative;
+    left: 50%;
+    margin-left: -250px;
+}
